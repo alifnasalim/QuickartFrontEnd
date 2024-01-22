@@ -9,9 +9,6 @@ import { IProduct } from '../Home-Interfaces/IProduct';
 export class HomePageService {
 
 
-
- 
-
   products: IProduct[]=[];
   constructor(private http: HttpClient) 
   {
